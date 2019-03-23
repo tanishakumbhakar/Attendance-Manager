@@ -68,7 +68,7 @@ echo "<tr class='active'>";
 echo "<th>".$i."</th>";
 echo "<th>".$row['name']."</th>";
 
-echo $row[id];
+
 echo "<td class='text-center'><a href='#' onclick='deletes($row[id])'><span class='glyphicon glyphicon-remove' style=color:red;></span></a></td>";
 
 
